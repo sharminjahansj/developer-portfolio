@@ -11,14 +11,16 @@ h1{
     color:purple;
     font-size: 60px;
     background: -webkit-linear-gradient(purple,#8a2be2 );
-    -webkit-background-clip:text;
+   -webkit-background-clip:text;
+   -webkit-text-fill-color:transparent;
+   
 
-    -webkit-text-fill-color: transparent;
   
 }
 h3{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
+    
 }
 p{
     font-family: 'Poppins', sans-serif;
@@ -36,7 +38,7 @@ section{
     display: flex;
 }
 .half-width img{
-  width: 60%;
+  width: 80%;
   padding-left: px;
 
   padding-top: 100px;
@@ -59,6 +61,13 @@ section{
 }
 .cover-photo{
     background-image: url(image/cover-image.png);
+    
+}
+.headline-font{
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(purple,#8a2be2 );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
     
 }
 
